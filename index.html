@@ -1,41 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap layout</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
-    crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
   </head>
-<body>
+  <body>
     <header>
-        <div class="container text-center py-5">
-            <h1>Boostrap 5 Responsive Grid</h1>
-            <p>Layout a griglia con diversi breakpoint (sm, md, lg)</p>
-        </div>
+      <div class="container text-center py-5">
+        <h1>Boostrap 5 Responsive Grid</h1>
+        <p>Layout a griglia con diversi breakpoint (sm, md, lg)</p>
+      </div>
     </header>
 
     <!-- Blocco Prime due colonne -->
     <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-bg-light col-md-6 col-lg-4">
-                    <h2>Colonna 1</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <div class="col-12 text-bg-secondary col-md-6 col-lg-8">
-                    <h2>Colonna 2</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
+      <div class="container my-4">
+        <div class="row">
+          <div class="col-12 text-bg-light col-md-6 col-lg-4 p-3">
+            <h2>Colonna 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-12 text-bg-secondary col-md-6 col-lg-8 p-3">
+            <h2>Colonna 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Blocco tre colonne -->
     <section>
-
+      <div class="container my-4">
+        <div class="row">
+          <div class="col-6 text-bg-primary p-3 col-md-4">
+            <h2>Colonna 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-6 text-bg-success p-3 col-md-4">
+            <h2>Colonna 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-12 text-bg-danger p-3 col-md-4">
+            <h2>Colonna 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-</body>
+    <!-- Blocco 4 colonne -->
+    <section>
+      <div class="container my-4">
+        <div class="row">
+          <div class="col-6 p-3 text-bg-info col-md-3">
+            <h2>Colonna 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-6 p-3 text-bg-warning col-md-3">
+            <h2>Colonna 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-6 p-3 text-bg-dark col-md-3">
+            <h2>Colonna 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+
+          <div class="col-6 p-3 text-bg-light col-md-3">
+            <h2>Colonna 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
